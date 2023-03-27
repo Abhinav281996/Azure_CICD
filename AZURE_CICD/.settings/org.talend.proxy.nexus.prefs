@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 nexus.proxy.enable=true
-nexus.proxy.password=enc\:system.encryption.key.v1\:XU6+8cn0uwJVrrdBN2OHmBEjkoif4loyFkRxBEloz8I8DvkDdNw\=
+nexus.proxy.password=enc\:system.encryption.key.v1\:tryrVYrREux61Fv8d/amwgDUPot/ZtusRP2eaEYknMdCRO4G3y4\=
 nexus.proxy.repository.id=talend-custom-libs-release
 nexus.proxy.type=NEXUS_3
 nexus.proxy.url=http\://3.94.114.170\:8081
