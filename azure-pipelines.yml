@@ -24,8 +24,7 @@ variables:
     -Dservice.url=$(talend_cloud_url)
     -Dcloud.token=$(talend_cloud_token)          
     -Dcloud.publisher.screenshot=true 
-    -Dcloud.publisher.environment=default 
-    -Dcloud.publisher.workspace=Personal (Abhinav Reddy Gaddam)
+    -Dcloud.publisher.environment=default
 #Uncomment the parameter TO PUBLISH TO AN ARTIFACT REPOSITORY: 
 #/!\ For your architecture to support this configuration, the artifact repository needs to be visible from the Azure agent running your pipeline.
     # -DaltDeploymentRepository=releases::default::https://pkgs.dev.azure.com/abhinavgaddam/Talend_CICD/_packaging/Talend_Artifact/maven/v1
