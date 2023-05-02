@@ -20,7 +20,7 @@ variables:
     -Dlicense.path=$(license.secureFilePath)
     -Dtalend.studio.p2.base=$(p2_base_url)
     -Dtalend.studio.p2.update=$(p2_update_url)
-    -DaltDeploymentRepository=talend-custom-libs-release::default::http://3.94.114.170:8081/repository/talend-custom-libs-release/
+    -DaltDeploymentRepository=talend-custom-libs-release::default::http://104.43.139.196:8081/repository/talend-custom-libs-release/
 #Uncomment the parameter TO PUBLISH TO AN ARTIFACT REPOSITORY: 
 #/!\ For your architecture to support this configuration, the artifact repository needs to be visible from the Azure agent running your pipeline.
     # -DaltDeploymentRepository=releases::default::https://pkgs.dev.azure.com/abhinavgaddam/Talend_CICD/_packaging/Talend_Artifact/maven/v1
