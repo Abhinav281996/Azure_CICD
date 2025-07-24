@@ -1,0 +1,16 @@
+[ {
+  "baseItem" : {
+    "id" : "_frOLAGFtEe-msON59XMa3w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_c-QxUGF0Ee-msON59XMa3w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_w8LOEGFwEe-msON59XMa3w - new_table",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
