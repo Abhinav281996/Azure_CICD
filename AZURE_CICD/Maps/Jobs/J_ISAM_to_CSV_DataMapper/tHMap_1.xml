@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root t='190' id='1' V190='11' inStruct='Structures/ISAM.xml' outStruct='Structures/ISAM_CSV_Out.xml' inputRep='173' outputRep='183' nextMap='' inputStructUserName='ISAM' outputStructUserName='ISAM_CSV_Out' V1='4' name='tHMap_1' incarnation='137'>
+  <inputMapElem t='200' id='2' V200='8' input='true' structElemExists='true' usedCount='3' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='ROOT'>
+    <mapNode t='190' idref='1'/>
+    <child t='200' id='3' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMaxTimes='-1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='RECORD'>
+      <mapNode t='190' idref='1'/>
+      <child t='200' id='4' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='13' maxSize='13' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' delimIncludeInitiator='true' V281='13' V1='4' name='CLAIMID'>
+        <mapNode t='190' idref='1'/>
+        <delimInitiator>CLM</delimInitiator>
+      </child>
+      <child t='200' id='5' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PATIENT_INFO'>
+        <mapNode t='190' idref='1'/>
+        <child t='200' id='6' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PATIENTID'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='7' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='21' maxSize='21' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PATIENTNAME'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='8' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='DOB'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+      <child t='200' id='9' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='SERVICEDATE'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='10' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='7' maxSize='7' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='CLAIMAMT'>
+        <mapNode t='190' idref='1'/>
+      </child>
+      <child t='200' id='11' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='3' occurMaxTimes='3' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PROCEDURE-CODES'>
+        <mapNode t='190' idref='1'/>
+        <delimInitiator>C</delimInitiator>
+        <child t='200' id='12' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='5' maxSize='5' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PROC-CODE'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='13' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='8' maxSize='8' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PROC-DATE'>
+          <mapNode t='190' idref='1'/>
+        </child>
+        <child t='200' id='14' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='6' maxSize='6' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PROC-COST'>
+          <mapNode t='190' idref='1'/>
+        </child>
+      </child>
+      <child t='200' id='15' V200='8' input='true' structElemExists='true' usedCount='1' V283='2' occurMinTimes='1' occurMaxTimes='1' minSize='-1' maxSize='-1' dataType='2' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' V1='4' name='PILLAR'>
+        <mapNode t='190' idref='1'/>
+      </child>
+    </child>
+  </inputMapElem>
+  <outputMapElem t='200' id='16' V200='8' structElemExists='true' usedCount='4' V283='2' occurMaxTimes='1' minSize='-1' maxSize='-1' groupType='1' repHandlerStruct='' visible='true' inheritsFrom='' V281='13' modifiedFromParent_loop='true' V1='4' name='csv'>
+    <mapNode t='190' idref='1'/>
+    <loop>SimpleLoop([autoAdded="true"],in$/ROOT,{Filter},{Sort Keys},{Contexts})</loop>
+  </outputMapElem>
+  <inputRepRuntime t='693' id='17' V693='1' delimiter=',' structName='Structures/ISAM.xml' V690='1' padOutput='true' trimInput='true'>
+  </inputRepRuntime>
+  <outputRepRuntime t='706' id='18' V706='1' defaultHeader='Col' delimiter=',' quoteCharacter='"' quoteMode='4' newLineType='2' newLine='&#xD;&#xA;' V690='1' encoding='UTF-8'>
+  </outputRepRuntime>
+  <valueSets></valueSets>
+  <inputXmlRepRuntime t='692' id='19' V692='1' V690='1'>
+  </inputXmlRepRuntime>
+  <outputXmlRepRuntime t='692' id='20' V692='1' V690='1'>
+  </outputXmlRepRuntime>
+  <child t='165' id='21' V1='4' name='Document Bindings'>
+    <child t='166' id='22' V166='5' docType='1' docReposPath='/AZURE_CICD/Sample Data/ISAM/isam.dat' V1='4' name='in$/ROOT'>
+      <elemNode t='200' idref='2'/>
+    </child>
+    <child t='166' id='23' V166='5' docType='2' docReposPath='/AZURE_CICD/Sample Data/ISAM_CSV_Out/Sample_output' V1='4' name='out$/csv'>
+      <elemNode t='200' idref='16'/>
+    </child>
+  </child>
+  <child t='201' id='24' V1='4' name='Inherits From'>
+  </child>
+</root>

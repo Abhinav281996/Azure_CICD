@@ -1,2 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin"/>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_yMGWwGjNEfClvMI2vJcPVQ" path="Jobs/J_ISAM_to_CSV_DataMapper" type="MAPS"/>
+</recyclebin:RecycleBin>
